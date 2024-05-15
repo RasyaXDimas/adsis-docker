@@ -6,17 +6,93 @@ import ref from "../assets/foto.jpg";
 const LandingPage = () => {
 	return (
 		<>
-			<Persona
-				foto={ref}
-				nama="Lenatheaa"
-				role="Front End"
-				quote="Jika terlalu menjaga image, hidupmu hanya sebatas jpeg"
-				ability={["Cantik", "Baik", "Pintar"]}
-				goals={["Jadi Docker"]}
-				invers={true}
-				hobi={["Membaca buku", "Mendengarkan musik", "Belajar"]}
-				skill={["Bedah jantung", "Operasi sesar", "Bisa pegang retri"]}
-			/>
+			<div className="">
+				<h2 className="text-center text-3xl font-bold mt-14">Our Teams</h2>
+				<Persona
+					foto={ref}
+					nama="Lenatheaa"
+					role="Front End"
+					quote="Jika terlalu menjaga image, hidupmu hanya sebatas jpeg"
+					ability={["Cantik", "Baik", "Pintar"]}
+					goals={["Jadi Dokter"]}
+					hobi={["Membaca buku", "Mendengarkan musik", "Belajar"]}
+					skill={["Bermain gitar", "Bermain drum", "Bermain Klarinet"]}
+				/>
+				<Persona
+					foto={ref}
+					nama="Lenatheaa"
+					role="Front End"
+					quote="Jika terlalu menjaga image, hidupmu hanya sebatas jpeg"
+					ability={["Cantik", "Baik", "Pintar"]}
+					invers={true}
+					goals={["Jadi Dokter"]}
+					hobi={["Membaca buku", "Mendengarkan musik", "Belajar"]}
+					skill={["Bermain gitar", "Bermain drum", "Bermain Klarinet"]}
+				/>
+				<Persona
+					foto={ref}
+					nama="Lenatheaa"
+					role="Front End"
+					quote="Jika terlalu menjaga image, hidupmu hanya sebatas jpeg"
+					ability={["Cantik", "Baik", "Pintar"]}
+					goals={["Jadi Dokter"]}
+					hobi={["Membaca buku", "Mendengarkan musik", "Belajar"]}
+					skill={["Bermain gitar", "Bermain drum", "Bermain Klarinet"]}
+				/>
+				<Persona
+					foto={ref}
+					nama="Lenatheaa"
+					role="Front End"
+					quote="Jika terlalu menjaga image, hidupmu hanya sebatas jpeg"
+					ability={["Cantik", "Baik", "Pintar"]}
+					invers={true}
+					goals={["Jadi Dokter"]}
+					hobi={["Membaca buku", "Mendengarkan musik", "Belajar"]}
+					skill={["Bermain gitar", "Bermain drum", "Bermain Klarinet"]}
+				/>
+				<Persona
+					foto={ref}
+					nama="Lenatheaa"
+					role="Front End"
+					quote="Jika terlalu menjaga image, hidupmu hanya sebatas jpeg"
+					ability={["Cantik", "Baik", "Pintar"]}
+					goals={["Jadi Dokter"]}
+					hobi={["Membaca buku", "Mendengarkan musik", "Belajar"]}
+					skill={["Bermain gitar", "Bermain drum", "Bermain Klarinet"]}
+				/>
+				<Persona
+					foto={ref}
+					nama="Lenatheaa"
+					role="Front End"
+					quote="Jika terlalu menjaga image, hidupmu hanya sebatas jpeg"
+					ability={["Cantik", "Baik", "Pintar"]}
+					invers={true}
+					goals={["Jadi Dokter"]}
+					hobi={["Membaca buku", "Mendengarkan musik", "Belajar"]}
+					skill={["Bermain gitar", "Bermain drum", "Bermain Klarinet"]}
+				/>
+				<Persona
+					foto={ref}
+					nama="Lenatheaa"
+					role="Front End"
+					quote="Jika terlalu menjaga image, hidupmu hanya sebatas jpeg"
+					ability={["Cantik", "Baik", "Pintar"]}
+					goals={["Jadi Dokter"]}
+					hobi={["Membaca buku", "Mendengarkan musik", "Belajar"]}
+					skill={["Bermain gitar", "Bermain drum", "Bermain Klarinet"]}
+				/>
+				<Persona
+					foto={ref}
+					nama="Lenatheaa"
+					role="Front End"
+					quote="Jika terlalu menjaga image, hidupmu hanya sebatas jpeg"
+					ability={["Cantik", "Baik", "Pintar"]}
+					invers={true}
+					goals={["Jadi Dokter"]}
+					hobi={["Membaca buku", "Mendengarkan musik", "Belajar"]}
+					skill={["Bermain gitar", "Bermain drum", "Bermain Klarinet"]}
+				/>
+			</div>
 		</>
 	);
 };

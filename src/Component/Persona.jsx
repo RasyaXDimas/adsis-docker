@@ -13,10 +13,10 @@ const Persona = ({
 }) => {
 	return (
 		<div
-			className={`flex bg-[#C490E4] w-3/4 mx-auto rounded-xl m-12 ring-4 ring-[#C490E4] ${
+			className={`flex bg-[#C490E4] w-3/4 mx-auto rounded-xl my-12 ring-4 ring-[#C490E4] ${
 				invers
-					? "drop-shadow-[-10px_10px_10px_rgba(196,144,228,1)] flex-row-reverse"
-					: "drop-shadow-[10px_10px_10px_rgba(196,144,228,1)]"
+					? "drop-shadow-[-10px_10px_10px_rgba(196,144,228,1)] flex-row-reverse ms-52"
+					: "drop-shadow-[10px_10px_10px_rgba(196,144,228,1)] ms-28"
 			}`}
 		>
 			<img
